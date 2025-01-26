@@ -1,1 +1,10 @@
 # lerobot tutorial
+
+colab uses python 3.11.11
+
+took about 3 min to train 1000 offline steps on state-based dataset on 3060
+
+## extra steps needed locally
+`import torch` throws error (https://github.com/pytorch/pytorch/issues/111469#issuecomment-1773937884):
+`export LD_LIBRARY_PATH=$HOME/.pyenv/versions/lerobot_tutorial/lib64/python3.11/site-packages/nvidia/nvjitlink/lib:$LD_LIBRARY_PATH`
+
